@@ -21,7 +21,7 @@ body {
 }
 
 .list {
-  height: 800px;
+  height: 35rem;
   padding: 100px;
   width: 100%;
   border: 1px solid white;
@@ -47,7 +47,6 @@ body {
 }
 
 .items {
-  width: 200px;
   height: calc(100% - 40px);
   display: inline-flex;
   align-items: center;
@@ -56,6 +55,7 @@ body {
   font-weight: 100;
   color: rgba(0, 0, 0, 0.15);
   box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.15);
+  margin: 0 5rem 0 5rem;
 }
 
 .items:nth-child(9n + 1) {
@@ -80,16 +80,16 @@ body {
   background: lightcoral;
 }
 .items:nth-child(9n + 8) {
-  background: darkslateblue;
+  background: lightskyblue;
 }
 .items:nth-child(9n + 9) {
-  background: rebeccapurple;
+  background: lightgoldenrodyellow;
 }
 .items:nth-child(9n + 10) {
   background: darkorchid;
 }
 .items:nth-child(9n + 11) {
-  background: indigo;
+  background: lightseagreen;
 }
 .items:nth-child(9n + 12) {
   background: red;
@@ -98,9 +98,9 @@ body {
   background: green;
 }
 
-.items:nth-child(even) {
+/* .items:nth-child(even) {
   transform: scaleX(1.31) rotateY(40deg);
 }
 .items:nth-child(odd) {
   transform: scaleX(1.31) rotateY(-40deg);
-}
+} */
